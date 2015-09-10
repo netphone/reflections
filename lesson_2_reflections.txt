@@ -2,4 +2,9 @@ What happens when you initialize a repository? Why do you need to do it?
 	A hidden folder named .git is generated
 	
 How is the staging area different from the working directory and the repository? What value do you think it offers?
-	The staging area .
+	The staging area serves the platform while the files have been changed in the working directory but not been committed yet. This provides an opportunity to check the changes that are what we really want.
+
+How can you use the staging area to make sure you have one commit per logical change?
+	Before committing, we can use "git diff --staged" to check any logical change
+
+What are some situations when branches would be helpful in keeping your history organized? How would branches help?
